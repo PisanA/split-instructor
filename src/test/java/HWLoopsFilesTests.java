@@ -14,9 +14,8 @@ public class HWLoopsFilesTests {
   private static PipedOutputStream out;
   private static PipedInputStream testOutput;
 
-
+  @Ignore
   @Test
-  @ignore
   public void checkWeights() throws IOException {
     HW_Loops_Files.main(null);
     // below tests do not work
